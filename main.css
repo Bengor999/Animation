@@ -222,3 +222,73 @@
     transform-origin: -25px -25px;
   
 }
+.star {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.as {
+  left: 150px;
+  top: 150px;
+  animation: blink 3.5s infinite linear;
+}
+.ad {
+  left: 350px;
+  top: 180px;
+  animation: blink 4s infinite linear;
+}
+.af {
+  left: 170px;
+  top: 350px;
+  animation: blink 2s infinite linear;
+}
+.ag {
+  left: 470px;
+  top: 110px;
+  animation: blink 1.7s infinite linear;
+}
+.ah {
+  left: 300px;
+  top: 250px;
+  animation: blink 0.9s infinite linear;
+}
+.aj {
+  left: 450px;
+  top: 350px;
+  animation: blink 3s infinite linear;
+}
+.ak {
+  left: 400px;
+  top: 400px;
+  animation: blink 0.5s infinite linear;
+}
+.al {
+  left: 500px;
+  top: 460px;
+  animation: blink 0.7s infinite linear;
+}
+.az {
+  left: 560px;
+  top: 190px;
+  animation: blink 2.5s infinite linear;
+}
+.ax {
+  left: 600px;
+  top: 290px;
+  animation: blink 0.9s infinite linear;
+}
+.ac {
+  left: 580px;
+  top: 540px;
+  animation: blink 1.5s infinite linear;
+}
+
+
+
+
